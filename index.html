@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0c0d12">
+<meta name="description" content="Carter Bolz — developer and designer. Games, Info Verse, Bagel Comics, self-hosted servers, and experience at Future House Studios and Mobsoc Media.">
+<title>Carter Bolz — Developer & Designer</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/jello.css">
+</head>
+<body id="top">
+<a class="skip-link" href="#main" tabindex="0">Skip to content</a>
+  <section class="drats-scroll-section" id="drats-scroll-anim" aria-label="Drats! game cover coming together as you scroll">
+    <div class="drats-stage">
+      <section class="portfolio-intro" id="portfolio-intro" aria-labelledby="portfolio-intro-title">
+        <div class="portfolio-intro-stage">
+          <h2 class="intro-beat" id="portfolio-intro-title"><span class="intro-welcome">Welcome</span> <span class="intro-line"><span class="intro-enter">dear future</span></span> <span class="intro-line"><span class="intro-enter">employer</span></span></h2>
+          <div class="intro-beat intro-beat-right"><p class="intro-statement">This is my <span class="intro-emphasis">portfolio</span> website!</p><p class="intro-support">This will basically go over everything in my résumé.</p></div>
+          <div class="intro-beat"><p class="intro-statement">I hope you <span class="intro-emphasis">enjoy</span> looking at all my projects!</p><p class="intro-support">I'm sure it'll be a lot more enjoyable than just reading a PDF. :)</p></div>
+          <div class="intro-beat intro-beat-center"><p class="intro-statement">Let's start off<br>with some <span class="intro-games-word">games<span class="intro-games-underline" aria-hidden="true"></span></span>!</p></div>
+        </div>
+        <div class="intro-chapters" aria-hidden="true"><span><i></i></span><span><i></i></span><span><i></i></span><span><i></i></span></div>
+      </section>
+      <canvas id="dratsCanvas" aria-hidden="true"></canvas>
+      <div class="drats-topline"><a href="#main">Skip to portfolio ↘</a></div>
+      <div class="drats-poster" role="img" aria-label="Drats! — The Classic Game Of Sweet Recrimination. Blue, red, yellow, and green cartoon game pieces jump into the air and frame the original logo.">
+        <img class="drats-fallback" src="assets/drats/reference.png" alt="" width="4000" height="4000">
+        <p class="drats-tagline" aria-hidden="true">The Classic Game Of Sweet Recrimination</p>
+      </div>
+      <div class="drats-progress" aria-hidden="true"><span></span></div>
+    </div>
+  </section>
+<section class="drats-about" aria-labelledby="drats-about-title">
+  <div class="drats-about-inner">
+    <div class="drats-about-heading"><p class="drats-about-eyebrow">2–4 players · Local multiplayer</p><h2 id="drats-about-title">The Classic Game Of Sweet Recrimination</h2><a class="drats-play" href="https://bagelcomics.com/TSADrats/index.html" target="_blank" rel="noopener">Play Drats! <span aria-hidden="true">↗</span></a></div>
+    <div class="drats-about-copy"><p>Drats! is a local multiplayer party game for 2–4 players. You can challenge your friends and family to this classic game of recrimination!</p><p>Players move their pieces around a board and challenge each other in minigames to collect stars. Whoever has the most stars wins!</p><p class="drats-about-award">Drats! is a nationally placed TSA 2025 submission!</p></div>
+  </div>
+</section>
+<section class="thalass-scroll" id="thalass" aria-labelledby="thalass-title">
+  <div class="thalass-stage">
+    <img class="thalass-fallback" src="assets/thalass/reference.png" alt="A table, loose papers, and a flask suspended in the dark water of Ocean Base Calamari.">
+    <canvas id="thalassCanvas" aria-hidden="true"></canvas>
+    <div class="thalass-topline"><a href="#main">Skip to portfolio ↘</a></div>
+    <div class="thalass-descent" aria-hidden="true"><span>Below the surface</span><p>Keep scrolling to descend ↓</p></div>
+    <div class="thalass-copy">
+      <p class="thalass-eyebrow">First-person · Horror · Underwater</p>
+      <h2 id="thalass-title">THALASS</h2>
+      <p class="thalass-description">Deep in the ocean, something (or someone) just attacked Ocean Base Calamari. The entire first level is flooded, and all that's left is the utility closet and the Observation Dome. Will you restore this ocean base? Or will it be lost to history?</p>
+      <p class="thalass-context">Thalass is a game made in 48 hours for the Gamecraft 2026 Halloween game jam!</p>
+      <a class="thalass-play" href="assets/downloads/thalass-windows.zip" download="Thalass-Windows.zip">Download for Windows <span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
+</section>
+<section class="other-games section" id="other-games" aria-labelledby="other-games-title"><div class="wrap">
+<h2 id="other-games-title">Up for another game<span>?</span></h2>
+<p>Find more of my games and experiments on itch.io!</p>
+<a class="text-link other-games-more" href="https://cartelous.itch.io/" target="_blank" rel="noopener">Explore my itch.io <span aria-hidden="true">↗</span></a>
+</div></section>
+<main id="main" tabindex="-1">
+
+<section class="web-development section" id="projects" aria-labelledby="work-title">
+<div class="web-intro">
+  <div class="web-intro-stage">
+    <div class="web-intro-art" aria-hidden="true"><svg class="web-intro-cursor" viewBox="0 0 48 56" fill="none" focusable="false"><path d="M4 3L36 30L22 32L16 46L4 3Z" fill="#0c0d12" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+    <div class="web-intro-copy wrap">
+      <h2 id="work-title">Web<br><span class="web-title-last">development<span class="web-title-dot">.</span><span class="web-intro-rule" aria-hidden="true"></span></span></h2>
+      <a class="web-intro-link" href="#info-verse">Explore the projects <span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
+</div>
+<div class="wrap">
+<article class="web-mini" id="info-verse" aria-labelledby="info-verse-title">
+<div class="web-mini-copy"><h3 id="info-verse-title">Info Verse<span>.</span></h3><p>My automated content pipeline could publish three AI-generated articles a day across five websites. It uses dedicated agents for topic selection, images, writing, revision, and publishing, with full local model integration.</p><a class="text-link" href="https://info-verse.org" target="_blank" rel="noopener">Visit Info Verse <span aria-hidden="true">↗</span></a></div>
+<div class="article-grid">
+<a class="article-preview" href="https://techtools.info-verse.org/2026/08/12/cursor-vs-windsurf-vs-replit-ai-workflow/" target="_blank" rel="noopener"><div class="article-image"><img src="assets/articles/ai-workflow.webp" alt="A partly open laptop glowing against a dark background." width="1080" height="765" loading="lazy" decoding="async"></div><div class="article-copy"><p class="article-meta">Tech Tools Info Verse <span aria-hidden="true">·</span> <time datetime="2026-08-12">Aug 12, 2026</time></p><h4>Cursor vs Windsurf vs Replit AI: The One Workflow Difference That Decides Speed</h4><span class="article-action">Read article <span aria-hidden="true">↗</span></span></div></a>
+<a class="article-preview" href="https://dogs.info-verse.org/2026/08/05/3-percent-calcium-rule-phosphorus-balance/" target="_blank" rel="noopener"><div class="article-image"><img src="assets/articles/calcium-balance.webp" alt="A scoop tipped onto its side beside a pile of powder." width="1080" height="720" loading="lazy" decoding="async"></div><div class="article-copy"><p class="article-meta">Dog Info Verse <span aria-hidden="true">·</span> <time datetime="2026-08-05">Aug 5, 2026</time></p><h4>The 3% Calcium Rule: Why Bone Meal Fails Without Phosphorus</h4><span class="article-action">Read article <span aria-hidden="true">↗</span></span></div></a>
+</div></article>
+<article class="web-mini web-mini-reverse" id="bagelcomics" aria-labelledby="bagel-title">
+<div class="web-mini-copy"><h3 id="bagel-title">Bagel Comics<span>.</span></h3><p>A games platform and established brand that I co-own. Over the years, I've contributed a lot to its SEO, marketing, and growth.</p><a class="text-link" href="https://bagelcomics.com" target="_blank" rel="noopener">Visit Bagel Comics <span aria-hidden="true">↗</span></a></div>
+<div class="article-grid">
+<a class="article-preview" href="https://bagelcomics.com/Phobia%200.2.1/index.html" target="_blank" rel="noopener"><div class="article-image game-image"><img src="assets/games/phobia.webp" alt="" width="842" height="503" loading="lazy" decoding="async"></div><div class="article-copy"><p class="article-meta">Bagel Comics <span aria-hidden="true">·</span> Platform adventure</p><h4>Phobia</h4><span class="article-action">Play Phobia <span aria-hidden="true">↗</span></span></div></a>
+<a class="article-preview" href="https://bagelcomics.com/bwag/index.html" target="_blank" rel="noopener"><div class="article-image game-image"><img src="assets/games/bagel-with-a-gun.webp" alt="" width="392" height="217" loading="lazy" decoding="async"></div><div class="article-copy"><p class="article-meta">Bagel Comics <span aria-hidden="true">·</span> Action platformer</p><h4>Bagel With a Gun</h4><span class="article-action">Play Bagel With a Gun <span aria-hidden="true">↗</span></span></div></a>
+</div></article>
+<div class="jello-controls"><button id="jello-toggle" type="button" aria-pressed="false">Jelloify</button><span id="jello-help" role="status">Give these cards a little gravity.</span></div>
+</div></section>
+<section class="section servers-section" id="servers" aria-labelledby="misc-projects-title">
+<div class="misc-projects-intro">
+  <div class="misc-projects-stage">
+    <div class="misc-tools" aria-label="Software tools">
+      <img class="misc-tool misc-tool-github" src="assets/tools/github.svg" width="80" height="80" alt="GitHub">
+      <img class="misc-tool" src="assets/tools/docker.svg" width="80" height="80" alt="Docker">
+      <img class="misc-tool" src="assets/tools/terminal.svg" width="80" height="80" alt="Terminal">
+      <img class="misc-tool" src="assets/tools/vscode.svg" width="80" height="80" alt="Visual Studio Code">
+      <img class="misc-tool" src="assets/tools/git.svg" width="80" height="80" alt="Git">
+      <img class="misc-tool" src="assets/tools/nodejs.svg" width="80" height="80" alt="Node.js">
+    </div>
+    <div class="misc-projects-copy wrap"><h2 id="misc-projects-title">Misc Projects<span>.</span></h2><p>Side projects, experiments, and things I build for fun.</p><a class="web-intro-link" href="#servers-title">Explore the projects <span aria-hidden="true">↓</span></a></div>
+  </div>
+</div>
+<div class="wrap project-layout">
+<div class="project-story"><h3 id="servers-title">Self-hosted<br>servers<span>.</span></h3><p class="project-lead">My own Minecraft server, completely self-hosted!</p><p>Bagelcraft has its own domain, which routes through a Cloudflare Tunnel to my server for a secure connection.</p><p>I can't feature a demo here, but here are some live stats!</p><a class="text-link" href="https://github.com/carterman82" target="_blank" rel="noopener">Explore my GitHub <span aria-hidden="true">↗</span></a></div>
+<div class="server-visual">
+  <div class="server-browser" data-server-browser data-state="unavailable">
+    <div class="server-browser-title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/></svg><span>Multiplayer</span><span class="server-browser-version">1.12.2</span></div>
+    <div class="server-listing">
+      <img class="server-icon" src="assets/bagelcraft-icon.svg" alt="" width="72" height="72">
+      <div class="server-listing-copy"><h3>Bagelcraft</h3><p class="server-motd">A Minecraft world, hosted by me.</p><p class="server-edition">Minecraft 1.12.2 <span>·</span> Eaglercraft</p></div>
+      <div class="server-connection"><svg class="server-signal" viewBox="0 0 24 20" aria-hidden="true"><path d="M1 16h3v4H1zm5-4h3v8H6zm5-4h3v12h-3zm5-4h3v16h-3zm5-4h3v20h-3z" fill="currentColor"/></svg><span data-server-capacity aria-label="Player count">— / —</span></div>
+    </div>
+    <div class="server-browser-status"><p class="server-status" data-server-status data-state="unavailable" role="status">Live status unavailable</p><span>Updates every 30s</span></div>
+    <div class="server-address"><span>Server address</span><code>wss://bagelcraft.net</code></div>
+  </div>
+  <p>A live look at Bagelcraft.</p>
+</div>
+</div>
+<article class="wrap mercury-project" aria-labelledby="mercury-title">
+  <div class="mercury-copy"><h3 id="mercury-title">Mercury<span>.</span></h3><p>I'm building Mercury, a desktop AI coding assistant that I want to make a better alternative to Claude Code and Codex for the way I work! My focus is local model integration and live plugin and skill lookup, alongside project chat, planning, and tools for reading, editing, and testing code.</p><p>The goal is to let you choose a model running on your own machine and look up relevant plugins and skills as you work. I want it to be easy to find the tools a project needs and put them to use!</p><p class="mercury-progress">Work in progress — no interactive demo yet.</p></div>
+  <div class="mercury-visual" role="img" aria-label="Mercury logo"><div class="mercury-mark" aria-hidden="true">M</div><span aria-hidden="true">Mercury<span>.</span></span></div>
+</article>
+</section>
+<section class="internships section" id="internships" aria-labelledby="internships-title">
+<div class="experience-intro">
+  <div class="experience-intro-stage">
+    <div class="experience-intro-art" aria-hidden="true"><span class="experience-streak"></span><span class="experience-streak experience-streak-second"></span></div>
+    <div class="experience-intro-copy wrap"><h2 id="internships-title">Other<span class="experience-title-dot">.</span></h2><p class="experience-intro-description">Experience, awards, and a few milestones along the way.</p><a class="web-intro-link" href="#experience-details">Take a look <span aria-hidden="true">↓</span></a></div>
+  </div>
+</div>
+<div class="wrap" id="experience-details">
+<div class="internship-list">
+  <article class="internship-card">
+    <a class="internship-logo future-house-logo" href="https://www.futurehousestudios.com/" target="_blank" rel="noopener"><span class="logo-stage"><img src="assets/future-house-studios-logo.webp" alt="Future House Studios"></span></a>
+    <div class="internship-copy"><p class="internship-role">Game Development Intern <span>Spring 2025</span></p><h3>Future House Studios</h3><p>Designed special event quests for <i>Swords of Secrets</i>, refined player onboarding, and created JSON quest exports.</p></div>
+  </article>
+  <article class="internship-card">
+    <a class="internship-logo mobsoc-logo" href="https://mobsocmedia.com/" target="_blank" rel="noopener"><span class="logo-stage"><img src="assets/mobsoc-media-logo.jpg" alt="MobSoc Media"></span></a>
+    <div class="internship-copy"><p class="internship-role">Software Engineer <span>Summer 2025</span></p><h3>MobSoc Media</h3><p>Fixed website bugs and architecture issues, updated systems, improved search visibility, and streamlined deployment.</p></div>
+  </article>
+</div>
+<div class="awards-panel" aria-labelledby="awards-title">
+  <div><p class="awards-eyebrow">Beyond the work</p><h3 id="awards-title">Awards &amp; qualifications<span>.</span></h3></div>
+  <div class="awards-list">
+    <article class="award-row"><p class="award-year">2025–26</p><div><h4>Technology Student Association</h4><p>2nd place in Video Game Design, VR Design, and Software Development. National semifinalist in Coding.</p><p class="award-source">Utah / National TSA</p></div></article>
+    <article class="award-row"><p class="award-year">2025–26</p><div><h4>Computer Technology Sterling Scholar</h4><p>Lone Peak High School</p></div></article>
+    <article class="award-row"><p class="award-year">2024</p><div><h4>IT Specialist — Python</h4><p>Earned the Information Technology Specialist certification in Python.</p><p class="award-source">Certiport · Awarded May 3, 2024</p></div></article>
+  </div>
+</div>
+</div></section>
+<section class="about section thank-you" id="about" aria-labelledby="about-title"><div class="wrap about-layout">
+<div><h2 id="about-title">Thank you<br>for visiting<span>!</span></h2><p class="about-description">I hope you had as much fun exploring all of this as I did making it!</p><p class="about-description">If you want the full boring explanation, here's my résumé!</p><a class="text-link" href="assets/carter-bolz-resume.pdf" target="_blank" rel="noopener">View my résumé <span aria-hidden="true">↗</span></a></div>
+<div class="site-making" aria-label="How this site was made">
+  <div><h3>The foundation</h3><p>HTML, CSS, and vanilla JavaScript modules, with responsive layouts built using Grid and Flexbox.</p></div>
+  <div><h3>Motion &amp; interaction</h3><p>Custom scroll-driven animations, CSS transitions, requestAnimationFrame, and IntersectionObserver. Reduced-motion support keeps the site comfortable to explore.</p></div>
+  <div><h3>3D &amp; underwater effects</h3><p>Three.js and WebGL render the Thalass scene, with OBJ models, lighting, and custom water and distortion shaders.</p></div>
+  <div><h3>The squishy cards</h3><p>A custom JavaScript spring-lattice simulation and Canvas 2D rendering let you grab, stretch, and toss the project cards.</p></div>
+  <div><h3>Type &amp; visual assets</h3><p>Space Grotesk, Inter, and Plus Jakarta Sans via Google Fonts. Game artwork and models, official company logos, SVG icons, and article photography from Unsplash.</p></div>
+  <div><h3>Development &amp; testing</h3><p>Node.js serves the local development site. Playwright supports browser and responsive checks, and Git tracks changes.</p></div>
+</div>
+</div></section>
+<section class="hero" id="contact" aria-labelledby="hero-title"><div class="wrap hero-inner">
+<div class="hero-copy">
+<h1 id="hero-title">Let’s<br><span>connect.</span></h1>
+<p class="hero-role">Carter Bolz.<br>Developer &amp; designer.</p>
+<p class="hero-description">Have a project in mind, an opportunity to share, or just want to say hello? I’d love to hear from you!</p>
+<div class="actions"><a class="button" href="mailto:carter.m.bolz@gmail.com">Email me <span aria-hidden="true">↗</span></a><a class="text-link" href="assets/carter-bolz-resume.pdf" target="_blank" rel="noopener">View my résumé <span aria-hidden="true">↗</span></a></div>
+</div>
+<div class="hero-index connect-links" aria-label="Contact and social profiles"><p class="index-heading">Find me here</p>
+<a href="mailto:carter.m.bolz@gmail.com"><span>Email<small>carter.m.bolz@gmail.com</small></span><span aria-hidden="true">↗</span></a>
+<a href="https://www.linkedin.com/in/carterbolz/" target="_blank" rel="noopener"><span>LinkedIn<small>Carter Bolz</small></span><span aria-hidden="true">↗</span></a>
+<a href="https://github.com/carterman82" target="_blank" rel="noopener"><span>GitHub<small>@carterman82</small></span><span aria-hidden="true">↗</span></a>
+<a href="https://cartelous.itch.io/" target="_blank" rel="noopener"><span>itch.io<small>@cartelous</small></span><span aria-hidden="true">↗</span></a>
+</div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="wrap"><p>Carter Bolz · Developer & Designer</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div><p class="photo-credits">Article photos by <a href="https://unsplash.com/@alesnesetril" target="_blank" rel="noopener">Ales Nesetril</a> and <a href="https://unsplash.com/@alexsaks" target="_blank" rel="noopener">Alex Saks</a> on Unsplash.</p></footer>
+
+<script type="module" src="assets/drats-animation.js"></script>
+<script type="module" src="assets/thalass-scene.js"></script>
+<script type="module" src="assets/portfolio-intro.js"></script>
+<script type="module" src="assets/web-intro.js"></script>
+<script type="module" src="assets/misc-intro.js"></script>
+<script type="module" src="assets/experience-intro.js"></script>
+<script type="module" src="assets/scroll-reveals.js"></script>
+<script type="module" src="assets/jello.js"></script>
+<script type="module" src="assets/server-status.js"></script>
+
+</body></html>
+
+
